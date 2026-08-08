@@ -1,0 +1,84 @@
+{
+  "chapter": "CH1",
+  "title": "成為飛行員的路徑",
+  "units": [
+    {
+      "id": "ch1-u1",
+      "name": "PPL 是什麼與完整流程",
+      "type": "concept",
+      "assessment": "看完後你要能:說出從 student pilot certificate 到 PPL 之間至少四個里程碑的名稱與順序(學生證、單飛、越野飛行、checkride);算得出 Part 61 最低 40 小時與多數人實際落地時數之間的落差;找得到 PHAK 第 1 章對應證照架構的段落,並說出 Part 61 與 Part 141 兩種訓練途徑差在哪。",
+      "lesson": {
+        "title": "Private Pilot's License Breakdown // Complete Process // + Money Saving Tips",
+        "channel": "Free Pilot Training",
+        "url": "https://www.youtube.com/watch?v=ROFiikjcl7Q",
+        "duration": "24:23",
+        "why": "0:43 起說明 student pilot certificate 是所有證照的前提。3:16 起解釋單飛與 checkride 的關係,6:34 說明 checkride 分口試與飛行測驗兩段。7:24 起是七個訓練階段的骨架,10:51 提到多數學生在 8 到 15 小時之間單飛。20:15 提到 Part 141,20:34 提到 Part 61 最低 40 小時但實際平均更高。對照 PHAK 第 1 章(Introduction to Flying)的證照架構與 Part 61/141 說明。14:44 之後的省錢技巧偏美國本地做法,可略過。"
+      },
+      "drills": [
+        {
+          "name": "PPL 費用拆解",
+          "en": "Private Pilot's License (PPL) Cost + 3 Ways to Save BIG!",
+          "kind": "lecture",
+          "target": "訓練各階段的實際花費:飛機時數、教練時數、筆試、口試與飛行測驗",
+          "dose": "跳著看章節標題對應的階段即可,不用照順序整支看完;看完要能列出四個費用大項",
+          "title": "Private Pilot's License (PPL) Cost + 3 Ways to Save BIG!",
+          "channel": "Airplane Academy",
+          "url": "https://www.youtube.com/watch?v=lGCcgpjjLCc",
+          "duration": "14:45",
+          "why": "有官方章節標記:0:28 起是費用總覽,2:30 飛機部分,4:55 教練部分,8:02 筆試,8:50 口試與飛行測驗,11:08 起是省錢建議。跟主課的流程說明對照,這支補的是每個階段實際要花多少錢,不重複流程本身。"
+        },
+        {
+          "name": "多少小時該單飛",
+          "en": "When Should You Solo? - MzeroA Flight Training",
+          "kind": "lecture",
+          "target": "單飛時數的參考區間與判斷依據",
+          "dose": "全片 3:33 一次看完;看完要能說出決定單飛時機的判準不是單一時數這件事",
+          "title": "When Should You Solo? - MzeroA Flight Training",
+          "channel": "MzeroA Flight Training",
+          "url": "https://www.youtube.com/watch?v=9Cc3gaMSqtE",
+          "duration": "3:33",
+          "why": "無官方章節,但全片只回答一個問題,不需要逐句定位。作者以自身教學經驗說明時數只是參考值,真正判準是操作穩定度,跟主課提到的 8 到 15 小時單飛區間互相補充。觀看數 16573,高於課程門檻。"
+        }
+      ]
+    },
+    {
+      "id": "ch1-u2",
+      "name": "台灣人的選項總覽",
+      "type": "pathway",
+      "assessment": "看完後你要能:比較美國與澳洲海外自訓在簽證類型、每小時教練費、當地生活安頓門檻上至少各兩點差異;說出多數人選擇海外受訓而不是留在台灣考照的兩個實際原因(飛行天數受天氣限制、教練與機隊供給量);知道台灣輕航機路徑的細節要去哪一章(CH10)找。",
+      "lesson": {
+        "title": "How to become a Pilot in US for International Students",
+        "channel": "LightninGirl",
+        "url": "https://www.youtube.com/watch?v=qMbwI9PyfOs",
+        "duration": "12:02",
+        "why": "4:22 起講財務規劃,4:55 講 M1/F1 簽證選擇,6:16 講到在美國安頓生活,8:11 起講訓練流程怎麼在美國推進。原片對象是印度學生,但簽證類型與財務框架同樣適用打算赴美自訓的台灣人。1:55 到 3:50 是作者自家線上課程的置入,可跳過。PHAK 第 1 章對 Part 61/141 兩種訓練架構的定義,是判斷美澳兩地學校課程設計的共同對照軸。"
+      },
+      "drills": [
+        {
+          "name": "澳洲自訓費用實況",
+          "en": "The True Cost of Becoming a Pilot in Australia (2025 Guide)",
+          "kind": "lecture",
+          "target": "澳洲海外自訓從 RPL 到 CPL 前段的費用結構與隱藏開銷",
+          "dose": "看 0:30 到 2:30 的費用段落即可,2:45 之後轉向職業機師收入規劃,PPL 自訓可略過;看完要能列出兩項容易被忽略的隱藏開銷",
+          "title": "The True Cost of Becoming a Pilot in Australia (2025 Guide)",
+          "channel": "The Quiet Achiever",
+          "url": "https://www.youtube.com/watch?v=EYJjlFQ7He8",
+          "duration": "4:23",
+          "why": "有官方章節標記:0:30 起是訓練費用結構,1:52 起是隱藏開銷。影片走的是 RPL 到 ATPL 的職業路線費用,PPL 自訓的人只需要看到 CPL 前的部分。"
+        },
+        {
+          "name": "美澳學飛差異口述",
+          "en": "US vs Australia Flight Training Experience (機師分享)",
+          "kind": "story",
+          "target": "海外受訓的實際環境差異:氣候、教官風格、單飛與轉訓退訓壓力",
+          "dose": "全片 7:38 聽兩人交叉比較即可,片頭約 1 分鐘是自我介紹可跳過;看完要能說出兩地訓練環境的一項具體差異",
+          "title": "機師分享│ 航空公司送美國VS澳洲學飛的差異？😂  幾小時First Solo ?差一點被退訓？🥺✈ 單單機長說 Ep.188",
+          "channel": "單單機長說 tropria1121",
+          "url": "https://www.youtube.com/watch?v=mq6RDqhtmOg",
+          "duration": "7:38",
+          "why": "受訪的兩位是航空公司培訓生,分別被送往美國與澳洲受訓,不是自費自訓,這點跟自訓者的處境不同,已在此註明。但兩地訓練環境、單飛所需時數、被要求轉訓或退訓的實際壓力,對打算自費海外自訓的人仍有參考價值。無官方章節,片長短,整支聽即可。"
+        }
+      ]
+    }
+  ]
+}

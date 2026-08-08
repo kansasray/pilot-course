@@ -1,6 +1,7 @@
 MIT License
 
-Copyright (c) 2026 gym-course contributors
+Copyright (c) 2026 gym-course contributors（curate-course 框架）
+Copyright (c) 2026 kansasray（courses/pilot/ 的課程內容與繁中文案）
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -33,4 +34,6 @@ SOFTWARE.
 - **PubMed 與 OpenEvidence 引用的文獻**，著作權屬各出版者；本專案僅存書目
   資訊與連結。
 
-課程內容為衛教與運動指引，不構成醫療診斷或治療建議。
+courses/pilot/ 的課程內容為航空知識的教育參考，**不是飛行訓練，不能取代合格飛行教官(CFI)的指導**。
+實際飛行訓練與考照請以所在國民航主管機關的現行法規與授權訓練機構為準；
+引用之 FAA 手冊(PHAK、AFH 等)為美國聯邦航空總署公開出版品，著作權依其政府出版品政策。

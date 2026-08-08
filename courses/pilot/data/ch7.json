@@ -1,0 +1,84 @@
+{
+  "chapter": "CH7",
+  "title": "法規與空域",
+  "units": [
+    {
+      "id": "ch7-u1",
+      "name": "空域分類",
+      "type": "concept",
+      "assessment": "不看資料,口頭列出A、B、C、D、E、G六種空域各自的進入條件,包含要不要先與ATC建立雙向無線電通聯、要不要裝電子回報用的transponder或ADS-B、要不要先取得ATC明確許可(clearance)才能進入,至少講對其中四種空域的組合才算過關。接著任選一種特殊使用空域(MOA或restricted area),說出未經許可能不能穿越、要向哪個單位查詢是否開放。最後背出Class D日間的能見度與雲隔數字,和Class G日間1200呎以下的數字做對照,能講出兩者不同之處。",
+      "lesson": {
+        "title": "Airspace MADE EASY With MINECRAFT! | Class A B C D E G Explained",
+        "channel": "Fly With The Guys",
+        "url": "https://www.youtube.com/watch?v=T83c6MYztd4",
+        "duration": "15:42",
+        "why": "用Minecraft場景把六種空域一次講完:Class D(1:10)進入前只需建立雙向無線電通聯,Class C(2:56)、Class B(4:38)則進一步要求transponder與ADS-B,Class B更要先取得ATC明確許可(clearance)才能進入;Class A(6:40)、Class G(7:14)、Class E(9:43)接著補齊剩下三種。11:48起專門講VFR能見度與雲隔(cloud clearance)最低標準,12:51起附一套記憶口訣。對照FAA PHAK第14章Airspace與14 CFR 91.155 VFR天氣最低標準。頻道Fly With The Guys上傳於2020-06-14,空域分類架構本身多年未變,但實際進入需求以現行FAR為準,台灣讀者回台適用CAA規定。"
+      },
+      "drills": [
+        {
+          "name": "特殊使用空域:限制區、禁區與警告區",
+          "en": "Special Use Airspace: Restricted, Prohibited, and Warning Areas",
+          "kind": "lecture",
+          "target": "特殊使用空域(SUA)進入規則,含禁區、限制區、警告區、警戒區與軍事操演區MOA",
+          "dose": "看完後畫一張表,列出片中提到的六種SUA各自能不能未經許可進入、要向哪個單位查詢是否開放",
+          "title": "Can I fly in a RESTRICTED AREA? (and other SUA) Private Pilot Ground Lesson 21",
+          "channel": "Free Pilot Training",
+          "url": "https://www.youtube.com/watch?v=doKwv3ylx8E",
+          "duration": "7:34",
+          "why": "依序講完禁區Prohibited(0:40)、限制區Restricted(1:57)、警告區Warning(3:46)、警戒區Alert(6:03)的進入規則,說明文字另外提到軍事操演區MOA與管制射擊區用的是同一套先聯絡管制單位的邏輯。對照PHAK第14章Special Use Airspace與14 CFR Part 73。頻道Free Pilot Training上傳於2021-03-26,這幾類空域的分類方式多年未變。"
+        },
+        {
+          "name": "VFR能見度與雲隔要求記憶法",
+          "en": "Memorize Visibility and Cloud Clearance Requirements",
+          "kind": "lecture",
+          "target": "各空域VFR能見度與雲隔(cloud clearance)最低標準的記憶方法,含夜間規則與例外",
+          "dose": "看完後自己重畫一次記憶圖,不看影片默寫出Class E日間與夜間的能見度數字差異",
+          "title": "Memorize Visibility & Cloud Clearance Requirements Forever! // Private Pilot Ground School",
+          "channel": "King Schools",
+          "url": "https://www.youtube.com/watch?v=qTZw-bWEq9k",
+          "duration": "4:13",
+          "why": "0:12起示範一套自製記憶口訣把六種空域的能見度與雲隔數字串起來背,2:45補上一般教材常漏講的夜間規則,3:22講例外情形。對照14 CFR 91.155 VFR天氣最低標準表。頻道King Schools是老牌地面學校教材出版商,上傳於2023-04-21,數字沿用多年未變的91.155標準。"
+        }
+      ]
+    },
+    {
+      "id": "ch7-u2",
+      "name": "PPL 的權限與限制",
+      "type": "concept",
+      "assessment": "能說出私人飛行員(PPL)在什麼條件下可以合法載客,以及與乘客分攤飛行費用時,自己至少要負擔多少比例的費用(pro rata share),不能單純收錢載客賺錢。能講出自己目前體檢證的級別與有效期限,以及超過一般體檢有效期後,是否還能用BasicMed之類的替代方案繼續飛行、條件是什麼。能背出飛行前依法一定要查的幾項資訊(FAR 91.103,例如NOTAM、天氣、跑道長度、起降距離、油量需求)。最後能說出一件事:飛機是否適航(airworthy)的最終判斷責任在機長身上,不是機工或維修廠說了算。",
+      "lesson": {
+        "title": "Lesson 16 | Federal Aviation Regulations: Part 1, Part 61 and 91 | Private Pilot Ground School",
+        "channel": "SkyEagle Aviation Academy",
+        "url": "https://www.youtube.com/watch?v=KdSXbF-wbyU",
+        "duration": "31:24",
+        "why": "單一堂課把FAR Part 61(怎麼拿到證照)與Part 91(怎麼弄丟證照)接在一起講:8:44起講飛行員各項權限含醫療證等級要求,21:45起專門講私人飛行員可以載客、但只能依61.113分攤(pro rata share)飛行費用而不能收錢載客營利,21:53到22:01逐字講出這條規定;26:21起講飛機適航性(civil aircraft airworthiness),27:58舉螺絲鬆脫的例子說明什麼情況算不適航,28:19接著把飛行前檢查的責任整段歸在機長身上而不是機工。對照14 CFR 61.113、61.23與91.7適航責任。頻道SkyEagle Aviation Academy是Part 141合格飛行學校,上傳於2022-11-01,61.113分攤費用的條文多年未變,實際數字仍以現行FAR為準,台灣讀者回台適用CAA規定。"
+      },
+      "drills": [
+        {
+          "name": "體檢證種類與常見扣分項目",
+          "en": "FAA Medical Certificate Classes and Disqualifying Conditions",
+          "kind": "lecture",
+          "target": "第一、二、三級體檢證的差異、視力與色盲等常見檢查項目、新手最容易犯的一個錯誤",
+          "dose": "看完後對照自己過去的病史,列出報體檢時可能被要求補件或轉診的項目",
+          "title": "Avoid This Mistake! | FAA Medical Certificates Explained",
+          "channel": "Pilot Institute Airplanes",
+          "url": "https://www.youtube.com/watch?v=2__Qc4-ONuc",
+          "duration": "5:36",
+          "why": "0:31起分類第一、二、三級體檢證的差異,1:08補充免體檢的BasicMed替代方案,2:29起逐項講視力、色盲(3:05)、心臟血壓(3:53)等常見檢查關卡,4:36講哪些病史會被直接拒發,4:52提醒新手最常忽略、事後被拒發的一個錯誤。對照14 CFR 61.23體檢證規定與14 CFR Part 68 BasicMed資格條件。頻道Pilot Institute Airplanes上傳於2024-06-18,體檢分級與BasicMed條件時有微調,實際資格以現行FAR 61.23與Part 68為準。"
+        },
+        {
+          "name": "飛行前法定必查事項NWKRAFT",
+          "en": "Required Preflight Action Under FAR 91.103 (NWKRAFT)",
+          "kind": "lecture",
+          "target": "FAR 91.103規定飛行前必須取得的資訊項目:NOTAM、天氣、已知ATC延誤、跑道長度、備降機場、油量、起降距離",
+          "dose": "下次排飛行計畫時,照NWKRAFT七個字母逐項核對,確認自己有沒有漏查其中一項",
+          "title": "Simplifying FAA Regulation 91.103: Understanding NWKRAFT for Pilots",
+          "channel": "Friendly Neighborhood Flight Instructor",
+          "url": "https://www.youtube.com/watch?v=dONdMDNKRvw",
+          "duration": "5:10",
+          "why": "0:50起先列出天氣、油量、備降機場等基本項目,1:31補上91.103(b)只在離場或目的地機場沒有公告資料時才要另外查的跑道長度與起降距離,2:44完整重講一次NWKRAFT七個字母各自對應哪一項法定必查資訊。對照14 CFR 91.103。頻道Friendly Neighborhood Flight Instructor上傳於2024-01-28。"
+        }
+      ]
+    }
+  ]
+}

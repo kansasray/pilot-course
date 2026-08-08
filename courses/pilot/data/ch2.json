@@ -1,0 +1,84 @@
+{
+  "chapter": "CH2",
+  "title": "裝備與家用模擬器",
+  "units": [
+    {
+      "id": "ch2-u1",
+      "name": "家用模擬器當程序練習器",
+      "type": "procedure",
+      "assessment": "看完後你要能:說出家用模擬器對 PPL 練習真正有效的三個項目(儀表判讀、無線電通聯用語、五邊進場程序)與做不到的至少兩個限制(g力與觸覺回饋、真實壓力反應);根據自己想飛的機型判斷該選軛還是搖桿,並說出方向舵踏板對側風起降練習的必要性;說出只有 FAA 認證裝置的模擬時數才能算進正式訓練時數,一般家用模擬器不算但仍值得練。",
+      "lesson": {
+        "title": "Flight Simulator Training: Is It WORTH IT for Student Pilots? (2025)",
+        "channel": "Flight Sim Coach",
+        "url": "https://www.youtube.com/watch?v=Zw10w0glk5U",
+        "duration": "54:54",
+        "why": "10:04 起是入門機的基本需求,14:00 進入中階配置,20:24 是高階座艙級配置,價格帶隨規格從幾百美元跳到數千美元不等。24:11 起專講模擬器做不到的事(g力、觸覺回饋、真實壓力反應),27:14 起是模擬器真正擅長的項目(儀表判讀、程序記憶、無線電通聯)。44:10 起示範怎麼把家用練習對接進真實訓練:先在模擬器上把五邊進場與通聯練到肌肉記憶,再帶著具體問題回去問教官。48:20 之後轉向 PPL 以外的機種與航線,可略過。頻道作者本身經營模擬器教練服務,但技術說明本身可查證,沒有明顯過度推銷特定品牌。"
+      },
+      "drills": [
+        {
+          "name": "軛與方向舵踏板怎麼選",
+          "en": "Beginners Guide To Flight Sim Hardware & Peripherals",
+          "kind": "lecture",
+          "target": "軛與搖桿的手感差異、方向舵踏板對側風起降與協調轉彎練習的必要性",
+          "dose": "0:56 到 10:20 這段看完即可,10:20 之後的周邊配件與本題無關可跳過;看完要能說出軛比搖桿更貼近初級機型操縱感的原因",
+          "title": "Beginners Guide To Flight Sim Hardware & Peripherals",
+          "channel": "Flight Sim School",
+          "url": "https://www.youtube.com/watch?v=DX55vDPuHjY",
+          "duration": "13:08",
+          "why": "有官方章節:0:56 起比較搖桿(joystick)與軛(yoke)兩種操縱桿,8:53 起是方向舵踏板,10:20 之後是麥克風耳機等周邊,不在本題範圍可略過。軛比較貼近多數初級機型(如 Cessna 172)的操縱感,搖桿便宜但手感落差較大;方向舵踏板不是必需品,但少了它側風起降與協調轉彎的練習會失真。頻道主打模擬器硬體評測,示範畫面清楚,沒有找到官方逐字稿佐證的獨立第三方測試,以此片的實機操作展示為準。"
+        },
+        {
+          "name": "模擬器時數算不算數",
+          "en": "Does Flight Simulator help ACTUAL pilot training?",
+          "kind": "lecture",
+          "target": "家用模擬器時數能不能算進訓練時數,以及不算時數時它還有什麼用",
+          "dose": "全片 4:29 一次看完;看完要能說出只有 FAA 認證的 BATD/AATD 裝置時數能算進正式訓練時數",
+          "title": "Does Flight Simulator help ACTUAL pilot training?",
+          "channel": "Brodie Brazil",
+          "url": "https://www.youtube.com/watch?v=FFopasdNxWQ",
+          "duration": "4:29",
+          "why": "有官方章節:1:17 起討論家用模擬器對訓練的金錢價值,2:13 起是能否計入訓練時數的關鍵界線,只有 FAA 認證的 BATD/AATD 裝置能算進正式時數,一般家用模擬器不算。3:11 起是作者身為現役教官的結論:不算時數不代表沒用,練習密度與熟練度一樣重要。觀看數 121361,作者是持照教官,非零售商置入內容。"
+        }
+      ]
+    },
+    {
+      "id": "ch2-u2",
+      "name": "座艙裝備選購",
+      "type": "concept",
+      "assessment": "看完後你要能:比較主動降噪與被動降噪耳機在重量、電池與價格級距上的差異,並說出零售商自製測評影片在推薦高階機型時的立場要打折看;列出機械 E6B 與電子 CX-3 各自在考場允許性與計算速度上的優劣至少各一項;說出 EFB 平板在座艙裡取代的是紙本圖資而不是領航計算本身,以及 kneeboard 的角色。",
+      "lesson": {
+        "title": "Choosing the Right Aviation Headset",
+        "channel": "Sporty's Pilot Shop",
+        "url": "https://www.youtube.com/watch?v=AE9jjcnf3HI",
+        "duration": "44:56",
+        "why": "有官方章節:3:47 起解說 ANR(主動降噪)技術演進,14:44 起是選購時該看的舒適度、隔音與音質三個判準,21:04 起把市場分成被動、中階、高階三個價格級距,27:29 起逐一講 David Clark、Lightspeed、Bose 幾個高階型號的差異,35:01 起是輕量與入耳式選項。片方是 Sporty's Pilot Shop,是耳機零售商自製的選購指南,對自家上架的高階品牌解說詳盡,判斷時要記得這層立場,但被動與主動降噪的技術原理部分可獨立查證。38:44 之後的配件與感想段落較次要可跳過。"
+      },
+      "drills": [
+        {
+          "name": "機械 E6B 對電子 CX-3 實測",
+          "en": "E6B vs CX-3 - Which is fastest?",
+          "kind": "lecture",
+          "target": "機械 E6B 與電子 CX-3 在計算速度、電池依賴與考場允許性上的差異",
+          "dose": "全片 4:37 一次看完;看完要能說出至少一個機械式比電子式更適合帶進考場的理由",
+          "title": "E6B vs CX-3 - Which is fastest?",
+          "channel": "Pilot Institute Airplanes",
+          "url": "https://www.youtube.com/watch?v=UbylIeItO2U",
+          "duration": "4:37",
+          "why": "有官方章節:0:57 到 3:59 是兩位飛行員分別用機械 E6B 轉盤與電子 CX-3 計算同一道時間、速度、距離考題,3:59 之後公布並比較兩者算完的時間與正確率。機械式不用電池,口試與筆試考場多半只認這一種;電子式算得快、功能多,但要先確認考場規則是否允許帶入。這支只回答選購時的速度與允許性差異,操作步驟教學留到 CH6。"
+        },
+        {
+          "name": "ForeFlight 對 FlyQ 怎麼選",
+          "en": "Foreflight Vs AOPA FlyQ EFB - Aviation App Review",
+          "kind": "lecture",
+          "target": "ForeFlight 與 AOPA FlyQ 兩套 EFB App 的免費層級功能夠不夠用",
+          "dose": "全片 4:32 一次看完;看完要能列出兩套 App 免費版與付費版的至少一項功能差異",
+          "title": "Foreflight Vs AOPA FlyQ EFB - Aviation App Review - MzeroA.com",
+          "channel": "MzeroA Flight Training",
+          "url": "https://www.youtube.com/watch?v=FZc0DN97Ug0",
+          "duration": "4:32",
+          "why": "有官方章節:0:50 到 2:12 是 AOPA FlyQ 的功能與訂閱價格,2:12 之後是 ForeFlight 對應的功能與訂閱價格。作者建議初學者先看免費版本的地圖與天氣功能夠不夠用,再決定要不要升級付費訂閱層級。這支只講兩套 EFB App 該怎麼選,不含飛行計畫怎麼建,那部分留到 CH6。"
+        }
+      ]
+    }
+  ]
+}

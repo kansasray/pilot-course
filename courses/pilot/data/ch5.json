@@ -1,0 +1,111 @@
+{
+  "chapter": "CH5",
+  "title": "航空氣象",
+  "units": [
+    {
+      "id": "ch5-u1",
+      "name": "大氣與穩定度",
+      "type": "concept",
+      "assessment": "找一份當天任一機場的實際天氣,寫下地面氣溫與氣壓,對照標準大氣(standard atmosphere)表估算若沒有天氣系統干擾,同一高度理論上的氣壓與氣溫各是多少,兩者的差距就是那天大氣偏離標準大氣的程度。接著做撥定練習:把高度表撥定值從實際 QNH 改成標準大氣壓 29.92 吋汞柱,記錄指示高度往哪個方向、變化了多少呎,驗證方向是否與撥定值變化的方向一致。最後說明暖氣團與冷氣團上空的大氣穩定度與雲的垂直發展有什麼不同,能舉出一個具體差異就算達成。",
+      "lesson": {
+        "title": "Weather Theory | PPGS",
+        "channel": "Private Pilot Ground School",
+        "url": "https://www.youtube.com/watch?v=7wxkVkFOiAc",
+        "duration": "65:38",
+        "why": "同一支影片把大氣分層(1:40)、科氏力 Coriolis effect(8:48)、氣壓(10:44)一路講到大氣穩定度(15:19)、標準大氣(57:26)與吋汞柱(inHg)撥定的由來,單元需要的四個子題在一支裡都找得到對應章節。對照 FAA《飛行員航空知識手冊》PHAK 第 12 章 Weather Theory。"
+      },
+      "drills": [
+        {
+          "name": "壓力高度、密度高度與撥定值調整",
+          "en": "Pressure Altitude, Density Altitude, and Altimeter Adjustment",
+          "kind": "lecture",
+          "target": "撥定值(altimeter setting,對應 ICAO 的 QNH)輸入錯誤對指示高度的影響",
+          "dose": "看完後自己算一次:撥定值調高 0.1 吋汞柱,指示高度理論上會增加約 100 呎,驗證方向與幅度是否吻合影片說法",
+          "title": "Every Pilot Should Know THIS About the Altimeter (Private Pilot Ground Lesson 32)",
+          "channel": "Free Pilot Training",
+          "url": "https://www.youtube.com/watch?v=q27N5EFWmpM",
+          "duration": "10:11",
+          "why": "從 2:19 的壓力高度、3:24 的密度高度講到 6:11 起的撥定值調整,具體示範撥定值輸入錯誤時指示高度會偏高或偏低,而不是只背公式。美國訓練慣用「altimeter setting」一詞,對應 ICAO 通用的 QNH 撥定值,是同一件事換了個說法。對應 PHAK 第 12 章 Atmospheric Pressure and Altimetry 一節。"
+        },
+        {
+          "name": "科氏力與地轉風的形成",
+          "en": "Coriolis Force and Geostrophic Wind",
+          "kind": "lecture",
+          "target": "氣壓梯度力(pressure gradient force)與科氏力(Coriolis force)如何平衡出地轉風(geostrophic wind)",
+          "dose": "看完後畫一張北半球高低壓簡圖,標出氣壓梯度力與科氏力的方向,確認兩力平衡後的風向是否沿等壓線吹",
+          "title": "Coriolis Force versus Pressure Gradient Force | Aviation Weather | FlightInsight",
+          "channel": "FlightInsight",
+          "url": "https://www.youtube.com/watch?v=aMD2APJ4eNk",
+          "duration": "10:35",
+          "why": "把氣壓梯度力先讓空氣開始移動、科氏力接著把風向往右偏轉、兩力打平後風才沿等壓線吹成地轉風這個順序講得很清楚,片尾另外講近地面摩擦力如何打破這個平衡。對應 PHAK 第 12 章 Wind 一節。"
+        }
+      ]
+    },
+    {
+      "id": "ch5-u2",
+      "name": "雲、鋒面與危險天氣",
+      "type": "concept",
+      "assessment": "挑一份含有鋒面通過紀錄的 METAR 序列(同一機場前後六小時的報文),指出風向與氣壓從哪一筆報文開始明顯轉變,判斷通過的是冷鋒還是暖鋒,並說出判斷依據(風切變的快慢、氣壓下降或回升的速度)。接著自己畫一張雷暴生命週期簡圖,標出積雲階段、成熟階段、消散階段各自的外觀與危險程度,並寫出遇到雷暴時該往哪個方向迴避、至少該保持多遠的距離。最後解釋為什麼過冷水滴(supercooled water droplet)碰到機翼才會結冰,而不是在雲裡到處都會結冰。",
+      "lesson": {
+        "title": "PPL Checkride Prep: Mastering Weather | Flying New Guy",
+        "channel": "Pilot Institute Airplanes",
+        "url": "https://www.youtube.com/watch?v=BTMLP9lOQz8",
+        "duration": "31:06",
+        "why": "從 19:36 的 Fronts 接到 22:31 的 Icing、25:53 的 Turbulence and Wind Shear,把鋒面、結冰、亂流三個危險天氣主題連著講,前段 17:36 的 Thunderstorm 與 18:44 的 Atmospheric Instability 補上雷暴的觸發條件。對照 FAA PHAK 第 12 章 Weather Theory 與 AC 00-6B Aviation Weather。"
+      },
+      "drills": [
+        {
+          "name": "暖鋒、冷鋒、囚錮鋒、滯留鋒",
+          "en": "Warm, Cold, Occluded, and Stationary Fronts",
+          "kind": "lecture",
+          "target": "暖鋒(warm front)、冷鋒(cold front)、囚錮鋒(occluded front)、滯留鋒(stationary front)的天氣特徵",
+          "dose": "看完後畫一張四種鋒面的剖面簡圖,標出鋒面通過前後的雲層次序與降雨型態,四種都畫完再對照影片確認",
+          "title": "Weather Fronts Explained - Cold, Warm, Occluded & Stationary - For Student Pilots",
+          "channel": "Part Time Pilot",
+          "url": "https://www.youtube.com/watch?v=wjoTFIhL61c",
+          "duration": "14:45",
+          "why": "分四段(2:19 暖鋒、5:40 冷鋒、9:54 囚錮鋒、13:19 滯留鋒)逐一講天氣特徵與生成原因,把課綱要求的四種鋒面一次講齊。對應 PHAK 第 12 章 Air Masses and Fronts 一節。"
+        },
+        {
+          "name": "雲的分類與雲底高度估算",
+          "en": "Cloud Families and Cloud Base Calculation",
+          "kind": "lecture",
+          "target": "雲的分類(cloud families)、雲的形成過程與雲底高度的估算方法",
+          "dose": "看完後用當天機場的氣溫與露點,自己套公式估算雲底高度,再與影片示範的計算方式核對步驟是否一致",
+          "title": "Aviation Weather Theory // Clouds & Moisture Basics Explained",
+          "channel": "King Schools",
+          "url": "https://www.youtube.com/watch?v=41BirFo_0UE",
+          "duration": "5:28",
+          "why": "3:10 起示範用氣溫與露點差直接算出雲底高度的簡易公式,把雲的分類跟一個可以自己動手驗算的技巧綁在一起教。對應 PHAK 第 12 章 Clouds 一節。"
+        }
+      ]
+    },
+    {
+      "id": "ch5-u3",
+      "name": "氣象報文判讀",
+      "type": "procedure",
+      "assessment": "拿一份當天任一機場的 METAR 原文,逐欄唸出:機場代碼、發報時間(Z 時區)、風向風速、能見度、天氣現象代碼、雲量與雲高、溫度與露點、高度表撥定值,每一欄都能講出代表什麼意思才算過關。接著找出同一機場的 TAF,指出預報的有效期間,以及趨勢變化(BECMG/TEMPO)出現在哪幾行。最後用 PIREP 與 AIRMET/SIGMET 練習判斷:如果報文裡出現中度以上顛簸或積冰,自己會不會取消這趟飛行,並說出判斷依據。",
+      "lesson": {
+        "title": "PPL Checkride Prep: Weather Reports | Flying New Guy",
+        "channel": "Pilot Institute Airplanes",
+        "url": "https://www.youtube.com/watch?v=n-OO3jfBWvc",
+        "duration": "16:24",
+        "why": "16:24 一支影片按順序講完 METAR/SPECI(1:56)、TAF(3:56)、PIREP(6:18)、圖表化天氣預報 GFA(6:45)、高空風溫預報(7:07)、AIRMET(9:06)、SIGMET(10:27),到最後的飛行前 go/no-go 決策(12:10),把報文判讀跟飛行前氣象簡報的流程接在一起講。對應 FAA PHAK 第 13 章 Aviation Weather Services。台灣讀者留意:美國 METAR 格式與 ICAO 通用格式在能見度單位(英里對公尺)、雲高單位上略有差異,實際判讀以民航局現行公告格式為準。"
+      },
+      "drills": [
+        {
+          "name": "METAR 逐欄判讀跟練(解答版)",
+          "en": "METAR Decoding Quiz - Answer Walkthrough",
+          "kind": "practice",
+          "target": "METAR 逐欄判讀:風向風速、能見度、天氣現象、雲量、溫度露點、撥定值、三小時氣壓趨勢",
+          "dose": "先自己對照原始 METAR 文字逐欄解讀一次並寫下每一欄的意思,再看這支影片核對答案,錯的地方標記起來",
+          "title": "Decoding METAR Quiz - Answer Video",
+          "channel": "MzeroA Flight Training",
+          "url": "https://www.youtube.com/watch?v=xPFxbhf2cTA",
+          "duration": "14:37",
+          "why": "用一份真實的 KARB(密西根 Ann Arbor 機場)METAR 逐欄核對答案,從日期時間、能見度、撥定值講到 12:34 起的三小時氣壓趨勢,是可以照著自己先猜再核對答案的跟練材料。對應 PHAK 第 13 章 METAR 判讀範例。"
+        }
+      ]
+    }
+  ]
+}

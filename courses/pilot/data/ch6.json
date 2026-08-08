@@ -1,0 +1,111 @@
+{
+  "chapter": "CH6",
+  "title": "領航與 E6B",
+  "units": [
+    {
+      "id": "ch6-u1",
+      "name": "VFR 航圖判讀",
+      "type": "concept",
+      "assessment": "拿一份美制 sectional chart(或線上截圖),找出並指出至少三種空域邊界在圖上的畫法差異,例如 Class B 的實心藍線(solid blue line)、Class D 的虛線藍線(dashed blue line)、Class E 下限的洋紅色暈映(magenta vignette),並說出每種邊界代表的意義。接著在圖上找到一個特殊使用空域或限制區,指出用什麼線型或顏色標示。最後用自己的話解釋地標領航(pilotage)與推測領航(dead reckoning)的差別:兩者各自依賴什麼資訊、什麼情況下會互相搭配使用,各舉一個例子。",
+      "lesson": {
+        "title": "Airspace & Charts Made Easy | Flying New Guy",
+        "channel": "Pilot Institute Airplanes",
+        "url": "https://www.youtube.com/watch?v=uUYyLXedxOc",
+        "duration": "41:10",
+        "why": "用一支影片把 sectional chart 的判讀跟空域邊界的畫法一次講完:1:28 起介紹圖上會用到的幾種航空圖,4:33 起依序講 Class A 到 Class G 六種空域,其中 6:43 起確認 Class B 邊界是實心藍線(solid blue line),10:43 起確認 Class D 邊界是虛線藍線(dashed blue line),12:59 起講 Class E 下限用洋紅色暈映(magenta vignette)標示,19:11 起補特殊使用空域,22:37 起講 TFR,25:15 起講圖例代碼與經緯度讀法。對應 FAA《飛行員航空知識手冊》PHAK 第 16 章 Navigation 談圖資判讀的部分。台灣讀者留意:sectional 是美國專用圖資,台灣的圖資體系與比例尺不同,但符號判讀與空域分層的邏輯相通。"
+      },
+      "drills": [
+        {
+          "name": "地標領航與推測領航的差異",
+          "en": "Pilotage vs. Dead Reckoning",
+          "kind": "lecture",
+          "target": "地標領航(pilotage)與推測領航(dead reckoning)兩種領航方式各自依賴的資訊來源與適用情境",
+          "dose": "看完後寫下兩種領航方式各自的優缺點各一項,並舉一個實際飛行中會同時用到兩者的情境",
+          "title": "Pilotage and Dead Reckoning",
+          "channel": "ERAU SpecialVFR",
+          "url": "https://www.youtube.com/watch?v=u6AU5DfG8A0",
+          "duration": "8:52",
+          "why": "0:33 起說明地標領航(pilotage)是靠地面地標比對位置飛行,5:19 起轉入推測領航(dead reckoning)的兩個優點,講的是靠航向、速度、時間推算位置,8:24 起直接對比兩者差異,一支影片把課綱要求的兩個概念都講到。對應 PHAK 第 16 章 Navigation 的 Pilotage 與 Dead Reckoning 兩節。"
+        }
+      ]
+    },
+    {
+      "id": "ch6-u2",
+      "name": "E6B 計算",
+      "type": "procedure",
+      "assessment": "拿出一支機械 E6B(或列印的紙上版本),自己操作一次風速三角計算:給定真航向、真空速、風向風速,算出風修正角(wind correction angle)與地速。接著用同一支 E6B 算一次燃油問題:已知每小時油耗與飛行時間,算出總耗油量。再算一次密度高度:給定機場標高、氣溫與撥定值,讀出密度高度數值。三項計算的刻度操作步驟都要能講給別人聽,不是只寫出答案數字。",
+      "lesson": {
+        "title": "The COMPLETE Guide on the E6B Flight Computer (PPL Lesson 47)",
+        "channel": "Free Pilot Training",
+        "url": "https://www.youtube.com/watch?v=L8ORGN6zZog",
+        "duration": "43:39",
+        "why": "單支影片把機械 E6B 的四項計算連著操作一次:0:55 起教乘除比例尺的基本用法,6:49 起講四種空速的換算,14:45 起示範燃油計算,19:45 起算地速,23:01 起算密度高度,33:07 起示範風側的航向修正計算,課綱要求的風速三角、地速航向修正、燃油計算、密度高度四項在這支裡都有實際操作示範,不是只講原理。對應 PHAK 第 16 章 Navigation 談飛行計算機(flight computer)使用的部分。"
+      },
+      "drills": [
+        {
+          "name": "E6B 風側刻度介紹",
+          "en": "Exploring the Wind Side of the E6B",
+          "kind": "practice",
+          "target": "E6B 背面風側(wind side)的羅盤方格(compass boxes)與弧線(arcs)刻度規則,是後續算風速三角的基礎介面",
+          "dose": "跟著影片翻到 E6B 背面,自己找出羅盤方格與弧線的位置,對照影片說明確認自己認得每個刻度區的用途",
+          "title": "How to Use Your E6B - Video 10 of 14 - Exploring the Wind Side",
+          "channel": "King Schools",
+          "url": "https://www.youtube.com/watch?v=R7EvLQFiQCs",
+          "duration": "2:43",
+          "why": "King Schools 14 集 E6B 系列第 10 集,0:20 起定義風側的專有名詞,0:40 起講羅盤方格,1:10 起講弧線,逐一介紹風側刻度,是接下來算風速三角前要先認得的基礎介面。對應 PHAK 第 16 章 Navigation 的 flight computer 操作說明。"
+        },
+        {
+          "name": "磁航向與預估航行時間計算",
+          "en": "Magnetic Heading and Estimated Time Enroute",
+          "kind": "practice",
+          "target": "從真航向(true heading)修正出磁航向(magnetic heading),並算出預估航行時間(ETE)",
+          "dose": "跟著影片給的範例數字,自己在 E6B 上操作一次算出磁航向與 ETE,再對照影片的答案核對步驟",
+          "title": "How to Use Your E6B - Video 11 of 14 - Magnetic Heading & ETE",
+          "channel": "King Schools",
+          "url": "https://www.youtube.com/watch?v=aO7rOCFd4HI",
+          "duration": "13:53",
+          "why": "King Schools 14 集 E6B 系列第 11 集,Martha King 用 13 分鐘示範磁航向與預估到場時間兩個飛行計畫的基本計算步驟,是風速三角算出真航向後,接著要做的航向修正操作。對應 PHAK 第 16 章 Navigation 的 magnetic heading 換算部分。"
+        },
+        {
+          "name": "E6B 燃油計算",
+          "en": "Calculating Fuel in Gallons on the E6B",
+          "kind": "practice",
+          "target": "用 E6B 比例尺算燃油消耗率與總油量,例如每小時燒多少加侖、飛某段時間會用掉多少油",
+          "dose": "跟著影片 0:53 起的三個範例各自在 E6B 上操作一次:10 加侖飛 60 分鐘的比例、25 加侖飛 2.5 小時、45 分鐘飛完 7 加侖,自己先算再核對影片答案",
+          "title": "How to Use Your E6B - Video 6 of 14 - Calculating Gallons",
+          "channel": "King Schools",
+          "url": "https://www.youtube.com/watch?v=O0LtUExKGOI",
+          "duration": "6:03",
+          "why": "King Schools 14 集 E6B 系列第 6 集,0:53 起連續示範三個燃油計算範例,把比例尺用在油量而不是速度距離上,是課綱要求燃油計算這一項的直接操作教材。對應 PHAK 第 16 章 Navigation 談飛行計畫燃油需求估算的部分。"
+        }
+      ]
+    },
+    {
+      "id": "ch6-u3",
+      "name": "航線規劃",
+      "type": "procedure",
+      "assessment": "自己找一段兩個機場之間、距離約 50 到 100 海浬的假想航線,完整填一次 nav log:先在地圖上選出三到五個容易在空中辨認的檢查點(checkpoint),標出每段的真航線與距離;再用當天(或假想)的高空風資料算出每段的風修正角、地速與所需時間;最後加總全程的飛行時間與預估油耗。填完後檢查:選的檢查點是不是間隔太遠或太難辨認、算出來的油量夠不夠加上法定備用油量。",
+      "lesson": {
+        "title": "Cross Country Flight Planning Step by Step | Nav Log Example Part 1",
+        "channel": "FlightInsight",
+        "url": "https://www.youtube.com/watch?v=Aq_fhI7Ha6Y",
+        "duration": "50:46",
+        "why": "一支影片走完整套跨場(cross-country)飛行規劃流程:3:19 起先決定航線(route of flight),9:25 起講怎麼挑檢查點(checkpoints)才容易在空中辨認,15:30 起定巡航高度,22:41 起查高空風,26:07 起算真空速,33:53 起算真航線,35:14 起用 E6B 算風修正角與地速,41:33 起修正出磁航向,42:47 起加上羅盤偏差算出羅盤航向,44:34 起填距離,46:14 起算航行時間,把 nav log 表格從頭到尾填完一次。對應 PHAK 第 16 章 Navigation 談 VFR 飛行計畫(flight planning)的完整流程。"
+      },
+      "drills": [
+        {
+          "name": "九分鐘 Nav Log 速成填表",
+          "en": "The 9 Minute Navigation Log Tutorial",
+          "kind": "practice",
+          "target": "用六個問題的架構(路線、檢查點、航向、速度、時間、油量)快速把 nav log 表格填完一次",
+          "dose": "跟著影片的六個段落,自己拿一張空白 nav log,對照影片給的範例數字逐欄填完,填完後跟影片畫面核對有沒有漏欄",
+          "title": "The 9 minute navigation log Tutorial!",
+          "channel": "Scott Koon CFI",
+          "url": "https://www.youtube.com/watch?v=PAGrRVSgPsM",
+          "duration": "9:21",
+          "why": "用六個問題當架構把整套流程濃縮:0:55 怎麼去(路線)、1:48 挑檢查點、3:57 航向、5:07 速度、6:28 還要多久、7:18 油量夠不夠,9 分鐘內把整張 nav log 表格帶著填完一次,是主課完整流程之後的濃縮練習版。對應 PHAK 第 16 章 Navigation 的 navigation log 填寫範例。"
+        }
+      ]
+    }
+  ]
+}

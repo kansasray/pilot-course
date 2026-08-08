@@ -1,0 +1,111 @@
+{
+  "chapter": "CH3",
+  "title": "空氣動力學",
+  "units": [
+    {
+      "id": "ch3-u1",
+      "name": "四力與升力原理",
+      "type": "concept",
+      "assessment": "能在紙上畫出平飛狀態下作用於機身的四個力：升力（lift）、重力（weight）、推力（thrust）、阻力（drag），並標出正確方向；能用牛頓第三定律（Newton's third law）說明機翼把氣流向下偏轉、因而產生反作用升力的機制；能指出「氣流必須同時到達翼型後緣」這個常見說法為什麼站不住腳；能分辨攻角（angle of attack）與相對風（relative wind）這兩個定義的差別。",
+      "lesson": {
+        "title": "Private Pilot Ground School. Chapter 3, Section A: \"Aerodynamic\"",
+        "channel": "SkyEagle Aviation Academy",
+        "url": "https://www.youtube.com/watch?v=l_L1OaYUDjU",
+        "duration": "43:15",
+        "why": "有官方章節時間碼：2:00 起講升力、推力、阻力三力的定義；5:40 起講平飛時四力如何互相平衡；10:50 起講白努利定律（Bernoulli's principle），13:09 附近明講「氣流不需要在後緣重新會合」，等時到達說法不成立；13:00 起講停滯點（stagnation point）；14:03 起講翼型（airfoil）的前緣、後緣、弦線（chord line）、翼弦（camber）；15:40 起進入相對風與攻角的基本定義。看到 23:00（章節 critical angle of attack 開始）之前即可，後面進入失速與副翼段落屬於後面兩個單元。對應 PHAK Ch.4。"
+      },
+      "drills": [
+        {
+          "name": "牛頓第三定律解釋升力",
+          "en": "Lift According to Newton's Third Law, Explained",
+          "kind": "lecture",
+          "target": "補上白努利定律之外，升力成因的另一半正確解釋：氣流被翼型向下偏轉，依牛頓第三定律產生反作用升力",
+          "dose": "全片 1 分半看完，跟主課的白努利段落對照理解",
+          "title": "Lift According to Newtons 3rd Law, Explained",
+          "channel": "Vector Pilot Prep",
+          "url": "https://www.youtube.com/watch?v=ERF9NMka5Ic",
+          "duration": "1:36",
+          "why": "全片只有一個主題，沒有官方章節：0:00 起示範對稱翼型在攻角為零時前後方氣流對稱、不產生升力；0:57 起講機翼把氣流向下偏轉，依牛頓第三定律（Newton's third law）產生等量反向的升力，並明確排除「像子彈打在下表面反彈」這種錯誤直覺。跟主課 10:50 起的白努利定律段落合看，才是升力成因的完整說法。"
+        }
+      ]
+    },
+    {
+      "id": "ch3-u2",
+      "name": "失速與轉彎",
+      "type": "concept",
+      "assessment": "能說出臨界攻角（critical angle of attack）是失速唯一的成因，且失速可以在任何空速、任何機身姿態下發生；能說出坡度（bank angle）增加時負載因子（load factor）與失速速度的量化關係，例如 60 度坡度下負載因子為 2G、失速速度會乘以根號 2；能分辨一般失速與加速失速（accelerated stall）的差異在於後者是靠增加攻角、而不是靠降低空速造成的。",
+      "lesson": {
+        "title": "What Causes an Airplane to STALL? | Complete PPL Ground Course (Lesson 3)",
+        "channel": "Free Pilot Training",
+        "url": "https://www.youtube.com/watch?v=hIv-BLf6PoE",
+        "duration": "9:02",
+        "why": "沒有官方章節標記，依自動字幕逐句定位：1:14 起講相對風與攻角的基本關係；2:16 起講邊界層分離（boundary layer separation）如何讓機翼上表面氣流脫離、升力驟降；4:20 起講失速速度會隨重量與高度改變；4:37 到 5:27 講清楚失速只跟攻角有沒有超過臨界值有關，跟空速、機身姿態無關，是這支影片作者特別強調「這堂課只記得一件事也要記得這個」的重點。看到 5:27 即可，之後是在飛機上實際示範失速與改出動作，屬於 CH9 訓練操作範疇，這個單元不需要看。對應 PHAK Ch.4。"
+      },
+      "drills": [
+        {
+          "name": "負載因子基本概念",
+          "en": "Load Factor (Aviation) Explained",
+          "kind": "lecture",
+          "target": "負載因子（load factor）與 G 力的定義，以及它跟失速速度之間的基本關係",
+          "dose": "全片 4 分鐘看完，是單一主題的短片沒有分段",
+          "title": "Load Factor (Aviation) Explained (Private Pilot Ground lesson 10)",
+          "channel": "Free Pilot Training",
+          "url": "https://www.youtube.com/watch?v=utDKtLvBToQ",
+          "duration": "4:04",
+          "why": "全片單一主題沒有內部分段：介紹負載因子的定義（用重量倍數、以 G 表示）、平飛時負載因子等於 1、轉彎坡度增加時負載因子如何上升，是下一支影片量化計算的基礎。對應 PHAK Ch.4 負載因子段落。"
+        },
+        {
+          "name": "坡度與加速失速的量化關係",
+          "en": "How Bank Angle Affects Stall Speed | Load Factor",
+          "kind": "lecture",
+          "target": "坡度增加時負載因子與失速速度上升的公式關係、加速失速的成因",
+          "dose": "看 0:00 到 4:47 的圖表推導部分，後面是實際操作片段可以不看",
+          "title": "How Bank Angle Affects Stall Speed | Don't Get too Slow! | Load Factor",
+          "channel": "FlightInsight",
+          "url": "https://www.youtube.com/watch?v=XN0LVBff_5g",
+          "duration": "7:12",
+          "why": "依自動字幕逐句定位：0:00 起用力的向量圖解釋轉彎時升力的垂直分量變小；1:03 起講飛機要增加攻角來補足垂直升力；2:08 起畫出坡度與失速速度的關係圖；4:04 起明講 60 度坡度時負載因子為 2G、失速速度會乘以根號 2。看到 4:47 即可，之後轉為陡坡轉彎的實際操作練習，屬於 CH9 訓練操作範疇。"
+        }
+      ]
+    },
+    {
+      "id": "ch3-u3",
+      "name": "穩定性與操縱面",
+      "type": "concept",
+      "assessment": "能指出飛機三軸（縱軸、橫軸、垂直軸）分別對應翻滾（roll）、俯仰（pitch）、偏航（yaw）三種運動，以及各自主要靠哪個操縱面控制；能說出配平（trim）的作用原理是調整配平片改變局部氣動力，讓操縱面停在某個角度，而不是飛行員直接出力壓住；能列出造成左轉傾向（left-turning tendency）的至少三個成因，例如螺旋槳扭力、螺旋槳滑流、陀螺進動、P 力矩。",
+      "lesson": {
+        "title": "Private Pilot Tutorial 4: Aerodynamics of Flight (Part 2 of 3)",
+        "channel": "Pilot Training System",
+        "url": "https://www.youtube.com/watch?v=8BmsOQkvJYw",
+        "duration": "20:06",
+        "why": "有官方章節時間碼：0:11 起定義飛機三軸；2:03 起講靜穩定性的基本概念；2:48 起講縱向穩定（俯仰、對應升降舵）；5:19 起講橫向穩定（翻滾、對應副翼）；7:05 起講垂直穩定（偏航、對應方向舵）。9:52 到 14:57 是爬升下降受力與失速，跟這個單元無關可以跳過。14:57 起進入螺旋槳原理段落，16:21 起完整講解左轉傾向的四個成因：螺旋槳扭力（torque）、螺旋槳滑流（spiraling slipstream）、陀螺進動（gyroscopic precession，約 18:10 起）、P 力矩（P-factor，約 19:07 起）。對應 PHAK Ch.4 與 Ch.5。"
+      },
+      "drills": [
+        {
+          "name": "三個主操縱面的作用方向",
+          "en": "Aircraft Primary Flight Control Surfaces Explained",
+          "kind": "lecture",
+          "target": "副翼、升降舵、方向舵各自的位置、動作方式，以及造成的機身運動方向",
+          "dose": "全片 5 分半看完，依序講三個操縱面，沒有官方章節但主題單一",
+          "title": "Aircraft Primary Flight Control Surfaces Explained | Ailerons, Elevators, and Rudders",
+          "channel": "Curious About Planes",
+          "url": "https://www.youtube.com/watch?v=4xBXGKOp89g",
+          "duration": "5:41",
+          "why": "沒有字幕與官方章節，依片長與描述定位單一主題：依序講副翼（在翼尖後緣，兩側反向動作造成翻滾）、升降舵（水平尾翼上下同動，造成俯仰）、方向舵（垂直尾翼左右擺動，造成偏航），逐一說明每個操縱面偏轉後氣動力方向與造成的機身轉動方向。對應 PHAK Ch.5 飛行操縱。"
+        },
+        {
+          "name": "配平的正確用法",
+          "en": "You're (Probably) Using Trim Wrong",
+          "kind": "lecture",
+          "target": "配平片如何靠改變局部氣動力讓操縱面維持在某個角度，而不是飛行員直接施力",
+          "dose": "看 0:00 到 5:08 的原理與配平片種類部分即可",
+          "title": "You're (Probably) Using Trim Wrong",
+          "channel": "Pilot Institute Airplanes",
+          "url": "https://www.youtube.com/watch?v=RNItNKbjwBs",
+          "duration": "6:40",
+          "why": "依自動字幕逐句定位：0:30 起解釋配平的原理是配平片改變當地氣流方向、產生額外氣動力，讓主操縱面停在某個角度，減輕飛行員手上要出的力，而不是直接移動操縱面本身；1:49 起介紹三種配平片：纜線式、電動馬達式、固定式。5:08 之後是操作技巧提醒，非必要但可以看。對應 PHAK Ch.5 配平系統。"
+        }
+      ]
+    }
+  ]
+}

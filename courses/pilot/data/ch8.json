@@ -1,0 +1,84 @@
+{
+  "chapter": "CH8",
+  "title": "無線電通訊",
+  "units": [
+    {
+      "id": "ch8-u1",
+      "name": "通話基本功",
+      "type": "procedure",
+      "assessment": "能不看稿,依「呼叫對象、自己身份、所在位置、請求事項」四步驟唸出一次完整的初始呼叫,並在對方唸出頻率、跑道或高度指令時,一字不漏地覆誦(readback)回去確認;聽不清楚時能立刻用「say again」要求對方重複,而不是猜測帶過;也能不看字卡,連續唸出從 A 到 Z 對應的音標字母(phonetic alphabet),以及 zero、tree、fower、fife、niner 等航空數字唸法。",
+      "lesson": {
+        "title": "How To Talk To Air Traffic Control | ATC Radio Basics for Pilots",
+        "channel": "Fly With The Guys",
+        "url": "https://www.youtube.com/watch?v=mcAn_elsWG0",
+        "duration": "14:24",
+        "why": "Fly With The Guys 這支《How To Talk To Air Traffic Control》(14:24)用一趟完整飛行示範通話結構:2:50–3:55 講初始呼叫的「5 W's」——呼叫對象(who you're calling)、報自己身份(who you are)、所在位置(where)、請求事項(what)四要素;3:55–4:55 講收到地面(ground)指令後怎麼覆誦(readback)確認;12:23–13:33 補充聽不清楚時用「say again」或「speak slower」要求對方重複。對應 AIM Ch.4(Air Traffic Control)Section 2 無線電通訊技術與用語段落。音標字母、數字唸法留給本單元兩支延伸影片,塔台/非塔台的完整流程留給 CH8 unit2 深入處理。"
+      },
+      "drills": [
+        {
+          "name": "航空音標字母(NATO Phonetic Alphabet)練習",
+          "en": "NATO Phonetic Alphabet Practice",
+          "kind": "practice",
+          "target": "26 個英文字母對應的 NATO 音標字母(Alfa、Bravo、Charlie…)",
+          "dose": "看完後蓋住字卡,自己不看提示唸一次從 A 到 Z 的完整音標字母",
+          "title": "Pilot´s alphabet TRAINING video with pictures by Captain Joe",
+          "channel": "Captain Joe",
+          "url": "https://www.youtube.com/watch?v=pecB32x6OXk",
+          "duration": "2:15",
+          "why": "Captain Joe 這支 2:15 短片一鏡到底,把 26 個英文字母逐一對應到 NATO 音標字母並配圖跟著唸,一次覆蓋全部字母。影片沒有章節標記,時間碼以全片起訖(0:00–2:15)為準。對應 AIM Ch.4 Section 2 無線電用語附表的音標字母清單。"
+        },
+        {
+          "name": "航空數字與頻率唸法練習",
+          "en": "Aviation Number and Frequency Pronunciation Practice",
+          "kind": "practice",
+          "target": "0–9 數字、整百整千數字、飛航高度與頻率的航空唸法(如 tree、niner)",
+          "dose": "看完後隨機唸三組自己編的頻率與高度數字,確認咬字符合航空慣例",
+          "title": "Phonetic Numbers ~ Airtraffic / Military / NATO",
+          "channel": "ESL and Popular Culture",
+          "url": "https://www.youtube.com/watch?v=NufAKh0ux8E",
+          "duration": "4:51",
+          "why": "ESL and Popular Culture 這支 4:51 的影片按章節逐一示範航空數字唸法:0:05–0:59 唸完 zero 到 niner 九個基本數字,0:59–1:58 講唸整百整千數字的規則,1:58–2:39 示範唸出飛航高度(flight level)的方式,2:44–3:15 示範風向風速與電腦交通管制代碼(squawk code)的唸法,4:14–4:51 示範唸出頻率。對應 AIM Ch.4 Section 2 數字唸法(Numbers Usage)段落。"
+        }
+      ]
+    },
+    {
+      "id": "ch8-u2",
+      "name": "塔台與非塔台機場實務",
+      "type": "procedure",
+      "assessment": "能分辨受訓機場是非塔台(non-towered)還是塔台(towered)機場,並選對應的通話方式:在非塔台機場能主動用 CTAF 頻率廣播自己的位置與意圖;在塔台機場能照「先聽 ATIS、再叫地面(ground)拿滑行許可、最後轉塔台(tower)要跑道許可」的順序走完一次;判斷情況危及生命時能唸出三次「Mayday」開頭,情況緊急但未危及生命時改唸「Pan-Pan」。",
+      "lesson": {
+        "title": "Towered Airport Radio Communications: Every Call From Startup to Shutdown (Real Cockpit Examples)",
+        "channel": "Flying With Shawn",
+        "url": "https://www.youtube.com/watch?v=KV5dByPYbiM",
+        "duration": "25:09",
+        "why": "Flying With Shawn 這支《Towered Airport Radio Communications》(25:09)用真實座艙錄音示範塔台機場全程通話:2:30–4:15 講起飛前先聽 ATIS 拿場面資訊,7:35–9:33 講怎麼呼叫地面(ground)拿放行與滑行許可,12:25–14:40 講轉塔台(tower)要跑道許可的固定句型,17:39–20:40 補充進入 Class B/C 空域的通話差異,20:40 之後示範降落回場時 tower 到 ground 的順序。對應 AIM Ch.4 Section 3(Airport Traffic Control)塔台通話段落。非塔台機場的 CTAF 自我廣播與緊急通話留給本單元兩支延伸影片處理。"
+      },
+      "drills": [
+        {
+          "name": "非塔台機場 CTAF 自我廣播",
+          "en": "CTAF Self-Announce Calls at Uncontrolled Airports",
+          "kind": "lecture",
+          "target": "非塔台機場進場、離場時 CTAF 廣播該講的內容與時機",
+          "dose": "看完後找一份自己受訓機場的航圖,查出 CTAF 頻率並寫出一次完整廣播稿",
+          "title": "Communicate Like a Pro at Uncontrolled Airports // Private Pilot Ground School",
+          "channel": "King Schools",
+          "url": "https://www.youtube.com/watch?v=Zc5ICe0Flxc",
+          "duration": "9:52",
+          "why": "King Schools 這支《Communicate Like a Pro at Uncontrolled Airports》(9:52)按章節講非塔台機場的通話:0:38–1:50 講 CTAF(Common Traffic Advisory Frequency)是什麼,1:50–3:30 講進場時該廣播的時機,3:30–4:01 講離場時的廣播內容,4:01–5:34 講怎麼從航圖查出正確頻率,5:34–6:40 講 UNICOM 與 CTAF 的差異,6:40 之後帶學習者實際跟著唸一次。對應 AIM Ch.4 Section 1(Communications)非塔台機場通信程序段落。"
+        },
+        {
+          "name": "Mayday 與 Pan-Pan 緊急通話",
+          "en": "Mayday and Pan-Pan Emergency Radio Calls",
+          "kind": "lecture",
+          "target": "Mayday 與 Pan-Pan 兩種求救通話的使用時機與標準內容",
+          "dose": "看完後寫出一次假設引擎故障情境的完整 Mayday 通話稿,確認包含機型、位置、意圖、人數與油量",
+          "title": "Declaring an Emergency | How to declare, Mayday vs Pan | Toolkit Ep 2",
+          "channel": "CB's Flight School",
+          "url": "https://www.youtube.com/watch?v=wnZYOrFDniQ",
+          "duration": "12:15",
+          "why": "CB's Flight School 這支《Declaring an Emergency》(12:15)按章節講清楚兩種求救通話:1:34–2:48 講 Mayday 用在危及生命的緊急狀況,唸法是連續三次「Mayday Mayday Mayday」,2:48–4:00 講 Pan-Pan 用在未危及生命但需要優先處理的狀況,4:00–6:14 講宣告後該報出的內容(機型、位置、意圖、人數與油量),8:35 之後用 1549 號班機水上迫降的真實錄音示範實際通話。對應 AIM Ch.4 Section 6(Emergency Procedures)遇險與緊急通話段落。"
+        }
+      ]
+    }
+  ]
+}

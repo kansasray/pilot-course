@@ -1,0 +1,111 @@
+{
+  "chapter": "CH4",
+  "title": "飛機系統與儀表",
+  "units": [
+    {
+      "id": "ch4-u1",
+      "name": "動力與燃油系統",
+      "type": "concept",
+      "assessment": "能不看筆記,自己在紙上畫出四行程(four-stroke)引擎的進氣、壓縮、動力、排氣四個階段各對應曲軸轉幾圈;能說出汽化器(carburetor)與噴射系統(fuel injection)決定空燃比的位置不同,並解釋為何前者容易在特定溫濕度下結冰;聽到巡航中轉速緩慢下降又伴隨輕微抖動時,能判斷這通常是汽化器結冰的徵兆而非燃油用盡,並說出正確處置順序;也能解釋磁電機(magneto)為何要有兩套獨立迴路,以及地面測試時關掉單一磁電機轉速應該只降不該熄火。",
+      "lesson": {
+        "title": "Private Pilot Ground Lesson: Aircraft Systems Part 1",
+        "channel": "Pilot Institute Airplanes",
+        "url": "https://www.youtube.com/watch?v=NLT2GzgGWGQ",
+        "duration": "34:22",
+        "why": "Pilot Institute 這支《Private Pilot Ground Lesson: Aircraft Systems Part 1》(34:22)用官方章節切開引擎主題:0:49–7:39 講活塞引擎整體結構,16:43–18:55 對照汽化器與噴射兩種供油方式,18:55–21:18 講混合比(mixture)與節流閥(throttle)的關係,21:18–28:33 講引擎啟動需要的三個條件。對應 PHAK Ch.7(Aircraft Systems)動力裝置與燃油系統段落。磁電機與汽化器結冰的機制留給本單元兩支延伸影片深入處理。"
+      },
+      "drills": [
+        {
+          "name": "汽化器結冰徵兆與處置",
+          "en": "Carburetor Icing Recognition and Response",
+          "kind": "lecture",
+          "target": "汽化器結冰(carburetor icing)的成因、徵兆與化油器加溫(carb heat)處置",
+          "dose": "看完後對照自己受訓機型的化油器加溫操作程序",
+          "title": "Carburetor Icing - Don't Forget This Simple Lesson! // Private Pilot Ground School",
+          "channel": "King Schools",
+          "url": "https://www.youtube.com/watch?v=BWwmZaZJHU4",
+          "duration": "4:07",
+          "why": "King Schools 這支 4:07 短片按章節分四段:0:00–0:59 講浮筒式汽化器(float-type carburetor)怎麼運作,0:59–1:52 講汽化器結冰在什麼溫濕度條件下發生,1:52–2:37 講第一個徵兆是轉速無聲下降,2:37–4:07 講正確處置是先拉出化油器加溫再處理節流閥。對應 PHAK Ch.7 汽化器結冰段落。"
+        },
+        {
+          "name": "磁電機運作原理",
+          "en": "How Aircraft Magnetos Work",
+          "kind": "lecture",
+          "target": "磁電機(magneto)自給電點火原理與雙迴路設計",
+          "dose": "看完後找一份地面測試程序,對照關掉單一磁電機轉速應該只降不熄火",
+          "title": "How Magneto Works | Simply explained for student pilots.",
+          "channel": "flight-club",
+          "url": "https://www.youtube.com/watch?v=P5JWuYvf1Jk",
+          "duration": "4:44",
+          "why": "flight-club 這支 4:44 短片一鏡到底講磁電機的自給電原理,說明為何飛機引擎不靠電瓶也能點火,並解釋雙磁電機設計、地面測試時關掉單一磁電機轉速應該只降不熄火的判讀方式。影片沒有官方章節標記,時間碼以全片起訖(0:00–4:44)為準。對應 PHAK Ch.7 點火系統段落。"
+        }
+      ]
+    },
+    {
+      "id": "ch4-u2",
+      "name": "皮托靜壓與六儀表",
+      "type": "concept",
+      "assessment": "能說出空速表(airspeed indicator)、高度表(altimeter)、垂直速度指示器(vertical speed indicator, VSI)三個儀表都靠皮托靜壓系統(pitot-static system)取得資料,姿態指示器(attitude indicator)、航向指示器(heading indicator)、轉彎協調器(turn coordinator)三個則靠陀螺(gyroscopic)原理運作,兩組儀表的動力來源不同;給定一個情境,例如靜壓孔(static port)堵塞、或皮托管(pitot tube)進氣孔與洩水孔同時堵塞,能推論哪些儀表會出現錯誤讀數、哪些不受影響、讀數會偏高還是偏低;也能說出爬升時皮托管完全堵塞會讓空速表的行為變得像高度表。",
+      "lesson": {
+        "title": "SECRETS OF THE SIX-PACK | EVERYTHING YOU NEED TO KNOW ABOUT FLIGHT INSTRUMENTS!",
+        "channel": "The Flight School - All Things Aviation",
+        "url": "https://www.youtube.com/watch?v=fmzYsE1sc_I",
+        "duration": "17:22",
+        "why": "The Flight School - All Things Aviation 這支《SECRETS OF THE SIX-PACK》(17:22)按章節逐一講六個基本儀表:1:06 空速表、2:32 姿態指示器、4:12 高度表、6:54 垂直速度指示器、8:18 航向指示器、11:42 轉彎協調器,14:41 之後補充電子飛行顯示器(EFD)。對應 PHAK Ch.8(Flight Instruments)六儀表段落。皮托靜壓系統堵塞時各儀表的錯誤表現由本單元的延伸影片深入處理。"
+      },
+      "drills": [
+        {
+          "name": "皮托靜壓系統堵塞的錯誤表現",
+          "en": "Pitot-Static System Blockage Errors",
+          "kind": "lecture",
+          "target": "靜壓孔與皮托管各種堵塞組合造成的儀表錯誤讀數",
+          "dose": "看完後自己列一張表,填三種堵塞情境下三個儀表分別偏高、偏低或不受影響",
+          "title": "Pitot Static System Errors in Aviation | Flight Training | FlightInsight",
+          "channel": "FlightInsight",
+          "url": "https://www.youtube.com/watch?v=RjvWG3CWnhY",
+          "duration": "17:42",
+          "why": "FlightInsight 這支 17:42 的影片用逐格文字取代口白,每段都是一句完整的因果敘述:0:44 講空速表、高度表、VSI 分別由哪個系統供氣,5:52–7:03 講靜壓孔單獨堵塞時三個儀表各自的表現,11:11–13:00 講皮托管進氣孔與洩水孔同時堵塞的表現,15:53 之後講爬升時皮托管堵塞會讓空速表的行為變得像高度表。對應 PHAK Ch.8 皮托靜壓系統錯誤段落。"
+        }
+      ]
+    },
+    {
+      "id": "ch4-u3",
+      "name": "電系與磁羅盤",
+      "type": "concept",
+      "assessment": "能畫出簡化的飛機電系迴路,標出電瓶、發電機或交流發電機(alternator)、匯流排(bus)、電流表(ammeter)的相對位置,並說出電流表異常偏高或偏低各代表哪種故障;能解釋真空系統(vacuum system)是靠什麼帶動姿態指示器與航向指示器運轉,以及真空幫浦(vacuum pump)故障時哪些儀表會失效、哪些不受影響;也能不看提示卡複述磁羅盤(magnetic compass)在北半球加速時指示會怎麼偏、在南向或北向轉彎時滯後方向為何,並說出這些誤差只在轉彎或加減速當下才會出現。",
+      "lesson": {
+        "title": "How Airplane Electrical Systems Work",
+        "channel": "FLY8MA.com Flight Training",
+        "url": "https://www.youtube.com/watch?v=2inIC2tjBDs",
+        "duration": "21:39",
+        "why": "FLY8MA.com Flight Training 這支《How Airplane Electrical Systems Work》(21:39)按章節講解:1:45–4:10 講交流發電機與發電機怎麼分工供電,4:10–6:55 講主匯流排怎麼分配電力,6:55–9:20 講斷路器與電壓調節器,11:05–13:15 講電流表異常偏高或偏低分別代表什麼故障,13:15 之後講實際飛行中電系故障的處置。對應 PHAK Ch.7(Aircraft Systems)電系段落。"
+      },
+      "drills": [
+        {
+          "name": "真空系統運作與故障排查",
+          "en": "Aircraft Vacuum System Operation and Troubleshooting",
+          "kind": "lecture",
+          "target": "真空系統帶動陀螺儀表的原理與常見故障",
+          "dose": "看完後對照自己受訓機型的真空表,記住正常運轉範圍",
+          "title": "Aircraft Instruments - Vacuum System",
+          "channel": "Ayersaviation",
+          "url": "https://www.youtube.com/watch?v=dveKifLGyuk",
+          "duration": "5:23",
+          "why": "Ayersaviation 這支 5:23 的影片按章節講真空系統:0:38 真空幫浦、0:58 空氣濾清器、1:48 講真空系統怎麼帶動姿態指示器轉動,3:04–3:19 用實機示範測試陀螺,3:47 之後講常見故障與排查方式。對應 PHAK Ch.8(Flight Instruments)真空系統段落,真空系統是儀表的動力來源,不屬於電系。"
+        },
+        {
+          "name": "磁羅盤的加減速誤差與轉彎誤差",
+          "en": "Magnetic Compass Acceleration and Turning Errors",
+          "kind": "lecture",
+          "target": "磁羅盤在加減速與轉彎時的誤差方向與記憶方式",
+          "dose": "看完後用 UNOS 口訣自己複述一次北向、南向轉彎的滯後方向",
+          "title": "Magnetic Compass Errors Pilots Get Wrong",
+          "channel": "Pilot Institute Airplanes",
+          "url": "https://www.youtube.com/watch?v=eIFZdDa46Mk",
+          "duration": "14:40",
+          "why": "Pilot Institute Airplanes 這支《Magnetic Compass Errors Pilots Get Wrong》(14:40)按章節講磁羅盤的三類誤差:4:47–6:35 講加速誤差與減速誤差(acceleration/deceleration error),7:10–9:08 講轉彎誤差(turning error),9:08–10:56 講記憶口訣 UNOS,10:56 之後補充磁差(magnetic variation)與磁偏(magnetic deviation)。對應 PHAK Ch.8 磁羅盤誤差段落。"
+        }
+      ]
+    }
+  ]
+}
