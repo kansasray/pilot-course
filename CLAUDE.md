@@ -32,6 +32,10 @@ COURSE=courses/pilot COOKIES_BROWSER= uv run python src/build/fetch_meta.py
 7. `make og` 需要 imagemagick;`make deploy` 前要先手動 `npx wrangler@4 pages project create pilot-course --production-branch main`
 8. 平行策展的波與波之間必須彙整**已用 video ID 禁用清單**(本課三波:CH1/3/4/5 → CH2/6/7/8 → CH9/10,全程零重複);共用 scratchpad 清理時**只刪自己下載的檔**
 
-## 狀態
+## 狀態(2026-08-08 完成)
 
-(建置完成後更新:單元/影片數、verify 結果、上線網址)
+- **已上線 https://pilot-course.pages.dev**(Pages 專案 `pilot-course`,production branch `main`,wrangler 手動部署;新部署先回 522 屬正常冷啟動)
+- 3 部 10 章 24 單元 67 支影片、18 小時整;`make verify` 連結 67/67、`make audit` 0 錯誤 1 警告(Sega Ho 165 觀看,刻意收錄)、89 tests 全過
+- 67 支零跨章重複;38 個頻道,最大佔比 11.9%
+- **GitHub**:`kansasray/pilot-course`(public,Discussions 已開,giscus 設定已填但 **App 待 Kansas 安裝**:https://github.com/apps/giscus)
+- `upstream` 指向 `kansasray/gym-course`(自己的框架 fork)
