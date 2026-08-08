@@ -24,8 +24,16 @@
     ],
     "educationalLevel": "零基礎到學科筆試準備",
     "audience": "想理解飛行員知識體系的人、考慮海外自訓或台灣輕航機的人、模擬飛行玩家",
-    "about": ["私人飛行員執照", "航空學科", "飛行裝備", "台灣考照路徑"],
-    "learningResourceType": ["策展影片課程", "學科導讀"]
+    "about": [
+      "私人飛行員執照",
+      "航空學科",
+      "飛行裝備",
+      "台灣考照路徑"
+    ],
+    "learningResourceType": [
+      "策展影片課程",
+      "學科導讀"
+    ]
   },
   "hero": {
     "eyebrow": "策展自 YouTube 公開教學",
@@ -34,10 +42,26 @@
   },
   "ui": {
     "stats": [
-      { "icon": "layers", "field": "lesson_units", "label": "個單元" },
-      { "icon": "clock", "field": "duration", "label": "課程時長" },
-      { "icon": "video", "field": "drill_units", "label": "支延伸影片" },
-      { "icon": "book-open", "field": "problem_units", "label": "個學科主題" }
+      {
+        "icon": "layers",
+        "field": "lesson_units",
+        "label": "個單元"
+      },
+      {
+        "icon": "clock",
+        "field": "duration",
+        "label": "課程時長"
+      },
+      {
+        "icon": "video",
+        "field": "drill_units",
+        "label": "支延伸影片"
+      },
+      {
+        "icon": "book-open",
+        "field": "problem_units",
+        "label": "個學科主題"
+      }
     ],
     "tabs": {
       "landing": "首頁",
@@ -72,17 +96,53 @@
     "openExternal": "在 YouTube 開啟",
     "emptyTitle": "沒有符合的內容",
     "emptyHint": "換個關鍵字,或把篩選條件清掉。",
-    "filterAllLabel": "全部"
+    "filterAllLabel": "全部",
+    "discussLabel": "討論",
+    "discussNote": "留言會同步到這門課 GitHub repo 的 Discussions,需要 GitHub 帳號才能發言。每支影片各有一串。"
   },
   "kinds": [
-    { "id": "lecture", "label": "講解", "tone": "accent" },
-    { "id": "practice", "label": "演練", "tone": "success" },
-    { "id": "story", "label": "實錄", "tone": "attention" }
+    {
+      "id": "lecture",
+      "label": "講解",
+      "tone": "accent"
+    },
+    {
+      "id": "practice",
+      "label": "演練",
+      "tone": "success"
+    },
+    {
+      "id": "story",
+      "label": "實錄",
+      "tone": "attention"
+    }
   ],
   "nav": [
-    { "title": "PART I　入門與裝備", "chapters": ["CH1", "CH2"] },
-    { "title": "PART II　學科核心", "chapters": ["CH3", "CH4", "CH5", "CH6", "CH7", "CH8"] },
-    { "title": "PART III　實務與台灣路徑", "chapters": ["CH9", "CH10"] }
+    {
+      "title": "PART I　入門與裝備",
+      "chapters": [
+        "CH1",
+        "CH2"
+      ]
+    },
+    {
+      "title": "PART II　學科核心",
+      "chapters": [
+        "CH3",
+        "CH4",
+        "CH5",
+        "CH6",
+        "CH7",
+        "CH8"
+      ]
+    },
+    {
+      "title": "PART III　實務與台灣路徑",
+      "chapters": [
+        "CH9",
+        "CH10"
+      ]
+    }
   ],
   "chapters": [
     {
@@ -168,19 +228,33 @@
   ],
   "audit": {
     "duration": {
-      "lesson": { "min": "8:00", "max": "75:00" },
-      "drill": { "min": "1:00", "max": "35:00" }
+      "lesson": {
+        "min": "8:00",
+        "max": "75:00"
+      },
+      "drill": {
+        "min": "1:00",
+        "max": "35:00"
+      }
     },
     "driftSeconds": 45,
     "minViews": 300,
     "metaCoverage": 1,
-    "drillsPerUnit": { "min": 1, "max": 12 },
+    "drillsPerUnit": {
+      "min": 1,
+      "max": 12
+    },
     "maxSharedVideos": 20,
-    "requireAssessment": ["concept", "procedure"],
+    "requireAssessment": [
+      "concept",
+      "procedure"
+    ],
     "minAssessmentChars": 80,
     "allowMissingUrls": 6,
     "maxChannelShare": 0.3,
-    "copyStyle": { "maxDashRatio": 0.05 }
+    "copyStyle": {
+      "maxDashRatio": 0.05
+    }
   },
   "stance": {
     "title": "這門課的立場",
@@ -222,6 +296,18 @@
   "footer": {
     "disclaimer": "**本課程是航空知識的教育參考,不是飛行訓練,不能取代合格飛行教官(CFI)的指導。**實際飛行訓練與考照請以所在國民航主管機關的現行法規與授權訓練機構為準。影片版權屬各原始 YouTube 頻道,本站只做策展與導讀。",
     "credits": "教學影片策展自 YouTube 公開內容,版權屬各原始頻道所有。官方對照教材為 FAA 公開出版的 PHAK(Pilot's Handbook of Aeronautical Knowledge)與 Airplane Flying Handbook,皆可在 faa.gov 免費下載。**姊妹課程**:斷網斷電時靠紙本地圖與指北針的「地圖學與軍用陸地導航」 landnav.pages.dev。"
+  },
+  "discussions": {
+    "provider": "giscus",
+    "repo": "kansasray/pilot-course",
+    "repoId": "R_kgDOTyKjeA",
+    "category": "Q&A",
+    "categoryId": "DIC_kwDOTyKjeM4DC7vm",
+    "mapping": "specific",
+    "termPrefix": "pilot",
+    "lang": "zh-TW",
+    "reactions": true,
+    "inputPosition": "top"
   },
   "llms": {
     "summary": "[[course]] 是一門策展自 YouTube 公開影片的 PPL 學科與飛行裝備課,分成入門與裝備、學科核心、實務與台灣路徑三部,共 [[durationHours]] 小時 [[durationMinutes]] 分。教學影片以英文為主,單元說明與導讀為繁體中文,官方對照軸為 FAA 免費手冊。",
